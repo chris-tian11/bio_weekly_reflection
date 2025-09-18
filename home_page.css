@@ -1,0 +1,38 @@
+* {
+    background-color: #F0F0F0;
+}
+
+.grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.links {
+    grid-area: 2 / 2 / 3 / 3;
+    text-align: center;
+}
+
+.heading {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+h1 {
+    text-align: center;
+}
+
+hr {
+    border: 2px solid black;
+}
+
+.links {
+    background-color: #B6CEB4;
+    border: 4px solid black;
+    border-radius: 5px;
+    padding-top: 8px;
+    box-shadow: 4px 4px 7px rgb(123, 123, 123);
+}
+
+a {
+    background-color: #B6CEB4;
+}
